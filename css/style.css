@@ -342,7 +342,6 @@ header {
 
 .about-me__img {
     box-shadow: var(--bs);
-    max-width: none;
     width: 400px;
 
 }
@@ -350,7 +349,7 @@ header {
 @media (min-width: 600px) {
     .about-me {
         display: grid;
-        grid-template-columns: 1fr 200px;
+        grid-template-columns: 1fr 250px;
         grid-template-areas:
             "title img"
             "subtitle img"
