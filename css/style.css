@@ -16,7 +16,7 @@
     --clr-dark: #303030;
     --clr-accent: #7dccff;
 
-    --fs-h1: 3rem;
+    --fs-h1: 2.7rem;
     --fs-h2: 2.5rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
@@ -285,12 +285,15 @@ header {
         width: calc(100% + 1.5em);
     }
 
+}
+
+@media (min-width: 900px) {
     .typing {
-        width: 22ch;
-        animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+        width: 19ch;
+        animation: typing 2s steps(20), blink .5s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;
-        border-right: 3px solid;
+        border-right: 2px solid;
     }
 
     @keyframes typing {
@@ -304,7 +307,6 @@ header {
             border-color: transparent
         }
     }
-
 }
 
 
@@ -418,6 +420,7 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
 }
 
 .portfolio__item {
