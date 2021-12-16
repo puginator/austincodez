@@ -411,7 +411,7 @@ header {
     text-align: center;
 }
 
-.section__subtitle--work {
+.section__subtitle-work {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
