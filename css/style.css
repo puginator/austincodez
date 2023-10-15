@@ -259,13 +259,13 @@ header {
 @media (min-width: 600px) {
     .intro {
         display: grid;
-        width: min-content;
+        width: 100%;
         margin: 0 auto;
         grid-column-gap: 1em;
         grid-template-areas:
             "img title"
             "img subtitle";
-        grid-template-columns: min-content max-content;
+        grid-template-columns: 1fr 2fr;
     }
 
     .intro__img {
@@ -430,6 +430,8 @@ header {
 }
 
 .portfolio__img {
+    height: 100%;
+    object-fit:cover;
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
     border-radius: .5em;
 }
@@ -516,4 +518,19 @@ header {
 .github-btn {
     background-color: var(--clr-dark);
     color: var(--clr-light);
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.fa-desktop {
+    margin-left: .5em;
+}
+
+.fa-github {
+    margin-right: .5em;
 }

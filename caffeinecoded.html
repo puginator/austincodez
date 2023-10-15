@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Austin Codez</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io /apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io /favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io /favicon-16x16.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html"><img src="img/austincodezlogo.png" alt="" /></a>
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link">Home</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#services" class="nav__link">My Services</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#about" class="nav__link">About Me</a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html#work" class="nav__link">My Work</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--Introduction-->
+  <section class="intro">
+    <h1 class="section__title section__title--intro">Coffee Brew Cards</h1>
+    <p class="section__subtitle section__subtitle--intro">
+      Brew coffee better!
+    </p>
+    <img src="img/caffeine-coded.jpeg" alt="caffeine coded homepage" class="intro__img" />
+  </section>
+
+  <div class="portfolio-item-individual">
+    <p>
+      This project stemmed from my love for AI and Coffee. I've wanted for a long time to track all the coffees I drink,
+      but never put together a blog for this as I am not the best at writing. So I decided to incorporate my love for
+      AI, by having AI take my notes on the coffees I am drinking and turn it into a blog post with images.
+    </p>
+
+    <p>
+      This project was built using NextJS 13, Tailwind, and Content Layer. This was a fun project and with content layer
+      it quickly turns my mark down files into a great looking blog post.
+    </p>
+    <p>
+      Some challenges that I faced were: getting a nice responsive layout for the blog, as well as actually getting
+      myself to write the blogs haha. This will hopefully inspire me to keep better records of all the amazing coffees I
+      drink and hopefully direct some people to some truly unique coffees.
+    </p>
+    <p>
+      Check out the links below to see how it's built and find your next amazing coffee to try!
+    </p>
+    <div class="button-wrapper">
+      <a href="https://caffeine-coded-2oh21njec-puginator.vercel.app/"><button class="btn">
+          View the site<i class="fas fa-desktop"></i></button></a>
+      <a href="https://github.com/puginator/CaffeineCoded"><button class="btn github-btn">
+          View the code <i class="fab fa-github"></i></button></a>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer">
+    <a href="mailto:austin.amento@gmail.com" class="footer__link">austin.amento@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com"><i class="fab fa-github"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="http://medium.com"><i class="fab fa-medium"></i></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="/js/index.js"></script>
+</body>
+</html>

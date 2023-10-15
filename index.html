@@ -1,217 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Austin Codez</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./favicon_io /apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./favicon_io /favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./favicon_io /favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="img/austincodezlogo.png" alt="" />
-      </div>
-      <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-      </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item">
-            <a href="#services" class="nav__link">My Services</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About Me</a>
-          </li>
-          <li class="nav__item">
-            <a href="#work" class="nav__link">My Work</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <!--Introduction-->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro typing">
-        Hi, I am <strong>Austin Amento</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-      <img
-        src="img/headshot.jpg"
-        alt="a picture of Austin Amento smiling"
-        class="intro__img"
-      />
-    </section>
-
-    <!--My Services-->
-    <section class="my-services" id="services">
-      <h2 class="section__title section__title--services">What I Do</h2>
-      <div class="services">
-        <div class="service">
-          <h3>Design + Development</h3>
-          <p>
-            Building fully responsive sites is my specialty! Lets work together
-            to build a site that will captivate your customers and show them
-            what your brand is really about.
-          </p>
-        </div>
-        <div class="service">
-          <h3>E-Commerce</h3>
-          <p>
-            Have had the experience of running my own E-Commmerce store for over
-            8 years. Now I get the pleasure of helping you build and develop
-            your store.
-          </p>
-        </div>
-        <div class="service">
-          <h3>Marketing</h3>
-          <p>
-            Lets expand your brand. With 12 years of brand building experience
-            in the food service industry, let me help you grow your brand to the
-            next level.
-          </p>
-        </div>
-      </div>
-      <a href="#work" class="btn">My Work</a>
-    </section>
-
-    <!--About Me-->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">
-        Developer based out of Bellingham, Washington
-      </p>
-      <div class="about-me__body">
-        <p>
-          After spending 12 years in the coffee industry it was time to make a
-          shift. I always had a thing with computers since I was very young and
-          knew I would get back to them eventually. Now I am a Full Stack Web
-          Developer who specializes in HTML, CSS, Javascript and React.
-        </p>
-        <p>
-          I currently live just outside of Bellingham with my family. My family
-          consists of my lovely wife Christina, with our two young daughters
-          Amelia, and Eliza. We also have two dogs Duke, and Benji as well as
-          two cats Coco, and Gray.
-        </p>
-      </div>
-      <img
-        src="./img/familyphoto.jpg"
-        alt="Family photo on beach"
-        class="about-me__img"
-      />
-    </section>
-
-    <!--My work-->
-    <section class="my-work" id="work">
-      <h2 class="section__title">My Work</h2>
-      <p class="section__subtitle section__subtitle-work">
-        A selection of my range of work, click the images to learn more.
-      </p>
-
-      <div class="portfolio">
-        <a href="/coffeebrewcards.html" class="portfolio__item">
-          <img
-            src="/img/coffeebrewcards.png"
-            class="portfolio__img"
-            alt="coffee brew cards landing page"
-          />
-        </a>
-        <a href="/movieclone.html" class="portfolio__item">
-          <img
-            src="/img/netflix-clone.png"
-            class="portfolio__img"
-            alt="netflix clone landing page"
-          />
-        </a>
-        <a href="/spaceTravel.html" class="portfolio__item">
-          <img
-            src="/img/spaceexploration-landing.png"
-            class="portfolio__img"
-            alt="space exploration landing page"
-          />
-        </a>
-        <a href="/pokedexproject.html" class="portfolio__item">
-          <img src="/img/pokedex.png" class="portfolio__img" alt="pokedex" />
-        </a>
-        <a href="/portfolio-site.html" class="portfolio__item">
-          <img
-            src="/img/portfolio.png"
-            class="portfolio__img"
-            alt="portfolio"
-          />
-        </a>
-      </div>
-    </section>
-
-    <!--Footer-->
-    <footer class="footer">
-      <a href="mailto:austin.amento@gmail.com" class="footer__link"
-        >austin.amento@gmail.com</a
-      >
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://codepen.io/puginator"
-            ><i class="fab fa-codepen"></i
-          ></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Austin Codez</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io /apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io /favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io /favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/austincodezlogo.png" alt="" />
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">My Services</a>
         </li>
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="https://www.linkedin.com/in/austin-amento/"
-            ><i class="fab fa-linkedin"></i
-          ></a>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About Me</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com/austincodez"
-            ><i class="fab fa-twitter"></i
-          ></a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/puginator"
-            ><i class="fab fa-github"></i
-          ></a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="http://medium.com/@austin.amento"
-            ><i class="fab fa-medium"></i
-          ></a>
+        <li class="nav__item">
+          <a href="#work" class="nav__link">My Work</a>
         </li>
       </ul>
-    </footer>
-    <script src="/js/index.js"></script>
-  </body>
+    </nav>
+  </header>
+
+  <!--Introduction-->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro typing">
+      Hi, I am <strong>Austin Amento</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="img/headshot.jpg" alt="a picture of Austin Amento smiling" class="intro__img" />
+  </section>
+
+  <!--My Services-->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I Do</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Design + Development</h3>
+        <p>
+          Building fully responsive sites is my specialty! Lets work together
+          to build a site that will captivate your customers and show them
+          what your brand is really about.
+        </p>
+      </div>
+      <div class="service">
+        <h3>E-Commerce</h3>
+        <p>
+          Have had the experience of running my own E-Commmerce store for over
+          8 years. Now I get the pleasure of helping you build and develop
+          your store.
+        </p>
+      </div>
+      <div class="service">
+        <h3>Marketing</h3>
+        <p>
+          Lets expand your brand. With 12 years of brand building experience
+          in the food service industry, let me help you grow your brand to the
+          next level.
+        </p>
+      </div>
+    </div>
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!--About Me-->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">
+      Developer based out of Bellingham, Washington
+    </p>
+    <div class="about-me__body">
+      <p>
+        After spending 12 years in the coffee industry it was time to make a
+        shift. I always had a thing with computers since I was very young and
+        knew I would get back to them eventually. Now I am a Full Stack Web
+        Developer who specializes in HTML, CSS, Javascript and React.
+      </p>
+      <p>
+        I currently live just outside of Bellingham with my family. My family
+        consists of my two young daughters
+        Amelia, and Eliza. We also have two dogs Duke, and Benji as well as
+        two cats Coco, and Gray.
+      </p>
+      <p>
+        Currently I am working at Hounder.co as a developer. We recently just launched our first SaaS product
+        seocentral.ai and I couldn't be more excited about it! Currently I am having fun building with AI and excited to
+        see the stuff we build over the next year.
+      </p>
+    </div>
+    <img src="./img/family-photo-2023.jpg" alt="Family at the park" class="about-me__img" />
+  </section>
+
+  <!--My work-->
+  <section class="my-work" id="work">
+    <h2 class="section__title">My Work</h2>
+    <p class="section__subtitle section__subtitle-work">
+      A selection of my range of work, click the images to learn more.
+    </p>
+
+    <div class="portfolio">
+      <a href="/caffeinecoded.html" class="portfolio__item">
+        <img src="/img/caffeine-coded.jpeg" class="portfolio__img" alt="ai coffee review blog" />
+      </a>
+      <a href="/coffeebrewcards.html" class="portfolio__item">
+        <img src="/img/coffeebrewcards.png" class="portfolio__img" alt="coffee brew cards landing page" />
+      </a>
+      <a href="/movieclone.html" class="portfolio__item">
+        <img src="/img/netflix-clone.png" class="portfolio__img" alt="netflix clone landing page" />
+      </a>
+      <a href="/spaceTravel.html" class="portfolio__item">
+        <img src="/img/spaceexploration-landing.png" class="portfolio__img" alt="space exploration landing page" />
+      </a>
+      <a href="/pokedexproject.html" class="portfolio__item">
+        <img src="/img/pokedex.png" class="portfolio__img" alt="pokedex" />
+      </a>
+      <a href="/portfolio-site.html" class="portfolio__item">
+        <img src="/img/portfolio.png" class="portfolio__img" alt="portfolio" />
+      </a>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="footer">
+    <a href="mailto:austin.amento@gmail.com" class="footer__link">austin.amento@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://codepen.io/puginator"><i class="fab fa-codepen"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://www.linkedin.com/in/austin-amento/"><i
+            class="fab fa-linkedin"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/austincodez"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/puginator"><i class="fab fa-github"></i></a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="http://medium.com/@austin.amento"><i class="fab fa-medium"></i></a>
+      </li>
+    </ul>
+  </footer>
+  <script src="/js/index.js"></script>
+</body>
 </html>
